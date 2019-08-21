@@ -1,0 +1,4 @@
+<ul>
+  <li *ngFor="let item of persons" title={{item.id}}>{{item.firstName}} - {{item.lastName}} ({{item.gender}}) <button (click)="deleteItem(item)">Delete it</button> <button (click)="updateItem(item)">Update it</button></li>
+  <button (click)="addNonamePerson()">Add NoName person</button>
+</ul>
