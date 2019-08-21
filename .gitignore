@@ -8,7 +8,7 @@
 /bazel-out
 
 #json-server
-/json-server
+#/json-server
 
 # dependencies
 /node_modules
